@@ -40,3 +40,15 @@ Webブラウザでコメントを投稿するWebアプリケーション。
 
      (.venv)$ pip install -e .
 
+
+依存ライブラリ変更時
+---------------------
+
+1. ``setup.py`` の ``install_requires`` を更新する
+2. 以下の手順で環境を更新する::
+
+     (.venv)$ virtualenv --clear .venv
+     (.venv)$ pip install -e ./guestbook
+
+3. setup.pyをリポジトリにコミットする
+
