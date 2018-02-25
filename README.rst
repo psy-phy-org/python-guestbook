@@ -49,6 +49,7 @@ Webブラウザでコメントを投稿するWebアプリケーション。
 
      (.venv)$ virtualenv --clear .venv
      (.venv)$ pip install -e ./guestbook
+     (.venv)$ pip freeze > requirements.txt
 
-3. setup.pyをリポジトリにコミットする
+3. setup.pyとrequirements.txtをリポジトリにコミットする
 

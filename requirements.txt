@@ -1,0 +1,7 @@
+click==6.7
+Flask==0.12.2
+-e git+https://github.com/psy-phy-org/python-guestbook.git@c8681eb7b23f539dce8cddd675fcd911d2f1da28#egg=guestbook
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
+Werkzeug==0.14.1
